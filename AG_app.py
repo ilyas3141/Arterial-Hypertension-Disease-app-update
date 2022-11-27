@@ -21,7 +21,7 @@ def diagnosis():
     db=0
     
     
-    gender=st.sidebar.selectbox('Gender',('Male','Female'))
+    gender=st.sidebar.selectbox('Genderr',('Male','Female'))
     
     age=st.sidebar.slider('Age', 0,110,43)
     smoking=st.sidebar.selectbox('Smoking',('Yes','No'))
